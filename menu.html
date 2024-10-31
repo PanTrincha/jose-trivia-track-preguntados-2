@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Game Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <img src="img/auris.png" alt="" class="img">
+        <header>
+            <div class="puntaje">
+                <img src="img/puntos.png" alt="">
+                <span class="puntos" id="puntos">0</span>
+            </div>
+            <h1>QUIZ</h1>
+            <div class="jugador">
+                <span class="nombre" id="nombre">Martín</span>
+                <img src="img/user.png" alt="">
+            </div>
+        </header>
+
+        <!-- SECCIÓN MENU DEL JUEGO -->
+        <main class="menu">
+            <h2>Hola <span id="nombre-jugador">Martín</span></h2>
+            <p>Elige un tipo de energia verde..</p>
+            <div class="categorias">
+                <div class="categoria" id="eolica">
+                    <img src="img/energia eolica.png" alt="" class="foto-categoria">
+                    <h3>Eòlica</h3>
+                </div>
+                <div class="categoria" id="hidroelectrica">
+                    <img src="img/Energía hidroeléctrica.png" alt="" class="foto-categoria">
+                    <h3>Hidroelèctrica</h3>
+                </div>
+                <div class="categoria" id="geotermica">
+                    <img src="img/energia-geotermica.png" alt="" class="foto-categoria">
+                    <h3>Geotèrmica</h3>
+                </div>
+                <div class="categoria" id="biocombustibles">
+                    <img src="img/Biocombustibles.png" alt="" class="foto-categoria">
+                    <h3>Biocombustibles</h3>
+                </div>
+                <div class="categoria" id="biomasa">
+                    <img src="img/Biomasa.png" alt="" class="foto-categoria">
+                    <h3>Biomasa</h3>
+                </div>
+                <div class="categoria" id="mareo">
+                    <img src="img/Energía mareomotriz.png" alt="" class="foto-categoria">
+                    <h3>Mareomotriz</h3>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
